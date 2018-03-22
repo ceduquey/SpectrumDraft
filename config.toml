@@ -83,7 +83,7 @@ publishDir = "docs"
   [params.somos]
     enable = true
     title = "¿Quienes Somos?"
-    description = "Somos un equipo de personas apasionadas por la energía renovable con la misión profesional de contribuir al medio ambi- ente mediante la construcción de plantas generadoras de energía renovable de la mejor calidad en nuestra región. Nos especializamos en el diseño, ingeniería, implementación y soporte de proyectos de energía fotovoltaica para uso comercial, residencial y a gran escala. Nuestro equipo de ingenieros e instaladores se basan en los más estrictos estándares internacio- nales al diseñar su planta y en rigurosos procedimientos de seguridad al momento de implementar."
+    description = "Somos un equipo de personas apasionadas por la energía renovable con la misión profesional de contribuir al medio ambiente mediante la construcción de plantas generadoras de energía renovable de la mejor calidad en nuestra región. Nos especializamos en el diseño, ingeniería, implementación y soporte de proyectos de energía fotovoltaica para uso comercial, residencial y a gran escala. Nuestro equipo de ingenieros e instaladores se basan en los más estrictos estándares internacioales al diseñar su planta y en rigurosos procedimientos de seguridad al momento de implementar."
 
       [[params.somos.row]]
         title = "¿Por Qué Spectrum?"
