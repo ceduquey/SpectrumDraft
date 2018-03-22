@@ -1,0 +1,362 @@
+# Page settings
+baseurl = "localhost:1313"
+title = "Elate theme"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+publishDir = "docs"
+
+[params]
+  
+  custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = ""
+  description = ""
+  email = ""
+  # Navigation
+  [params.navigation]
+    brand = "Spectrum"
+    home = "INICIO"
+    work = "PROYECTOS"
+    testimonials = "Testimonios"
+    services = "SERVICIOS"
+    about = "CONTACTOS"
+    contact = "CONTACTANOS"
+    somos = "¿QUIENES SOMOS?"
+    proyectos = "PROYECTOS"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+    
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+  
+  # Hero section
+  [params.hero]
+    title = "POWER YOUR FUTURE"
+    subtitle = 'if you want a subtitle'
+ 
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Plan"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    url = "#"
+    button = "Get In Touch"
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Develop"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    url = "#"
+    button = "Click Me"
+    icon = "icon-wrench"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Launch"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    url = "#"
+    button = "Why us?"
+    icon = "icon-rocket"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = false
+    title = "Watch the video"
+    icon = "icon-play2"
+    url = "https://vimeo.com/channels/staffpicks/93951774"
+
+  # Somos section
+  [params.somos]
+    enable = true
+    title = "¿Quienes Somos?"
+    description = "Somos un equipo de personas apasionadas por la energía renovable con la misión profesional de contribuir al medio ambi- ente mediante la construcción de plantas generadoras de energía renovable de la mejor calidad en nuestra región. Nos especializamos en el diseño, ingeniería, implementación y soporte de proyectos de energía fotovoltaica para uso comercial, residencial y a gran escala. Nuestro equipo de ingenieros e instaladores se basan en los más estrictos estándares internacio- nales al diseñar su planta y en rigurosos procedimientos de seguridad al momento de implementar."
+
+      [[params.somos.row]]
+        title = "¿Por Qué Spectrum?"
+        description = "Llevamos + 5 años asesorando importantes empresas colombianas en el desarrollo e instalación de sistemas fotovoltaicos para reducir su costo energético y contribuir en la mejora del medio ambiente."
+
+      [[params.somos.item]]
+        icon = "glyphicon glyphicon-signal"
+        title = "ATRACTIVO RETORNO SOBRE INVERSION"
+        description = "El avance en la tecnología fotovoltaica y los beneficios que ofrece el gobierno colombiano para proyectos de energía renovable, han logrado que la inversión en este tipo de proyectos sea una oportunidad rentable para usted y su empresa. Spectrum lidera todo el proceso de aplicación para estos beneficios de ley."
+
+      [[params.somos.item]]
+        icon = "glyphicon glyphicon-screenshot"
+        title = "COSTO FIJO DE ENERGÍA"
+        description = "Convertimos su gasto energético en un costo fijo. En proyectos de Contrato de Compra de Energía (PPA), los incrementos anuales son conocidos desde el inicio."
+
+      [[params.somos.item]]
+        icon = "glyphicon glyphicon-usd"
+        title = "BAJO COSTO DE OPERACIÓN Y MANTENIMIENTO"
+        description = "Ofrecemos un programa de operación y mantenimiento holístico que ayuda a maximizar la generación de energía y extender la vida útil de su planta. Incluimos un año de operación y mantenimiento gratis en todas nuestras instalaciones."
+
+      [[params.somos.item]]
+        icon = "glyphicon glyphicon-time"
+        title = "REDUCCIÓN EN TIEMPO DE PUESTA EN MARCHA"
+        description = "Nuestros diseños y metodología de trabajo permiten reducir el tiempo de instalación de la planta fotovoltaica para que usted pueda comenzar a generar ahorros en el menor tiempo posible."
+
+  # Servicios section
+  [params.servicios]
+    enable = true
+    title = "SERVICIOS"
+    description = ""
+
+      [[params.servicios.row]]
+        icon = "icon-anchor"
+        img = "person1.jpg"
+        title = "DISEÑO"
+        description = "Diseño único, escalable y detallado del sistema fotovoltaico, teniendo en cuenta sus requerimientos desde el consumo energético hasta la arquitectura del lugar de instalación."
+
+      [[params.servicios.row]]
+        icon = "icon-anchor"
+        img = "person1.jpg"
+        title = "INGENIERÍA"
+        description = "Contamos con un equipo certificado y especializado para dimensionar la mejor solución y garantizar la correcta ejecución del proyecto."
+
+      [[params.servicios.row]]
+        icon = "icon-video2"
+        img = "person1.jpg"
+        title = "IMPLEMENTACIÓN"
+        description = "Construimos todos nuestros proyectos siendo 100% responsables de la solución, desde la conceptualización hasta la puesta en marcha."
+
+      [[params.servicios.row]]
+        icon = "icon-monitor"
+        img = "person1.jpg"
+        title = "SOPORTE"
+        description = "Construimos todos nuestros proyectos siendo 100% responsables de la solución, desde la conceptualización hasta la puesta en marcha."
+
+  # Proyectos section
+  [params.proyectos]
+    enable = true
+    title = "EXPERIENCIA"
+    description = "Llevamos 4 años asesorando importantes empresas colombianas en el desarrollo e instalación de sistemas fotovoltaicos para reducir su costo energético y contribuir en la mejora del medio ambiente. Nuestro más reciente proyecto fue el diseño e implementación del proyecto sobre suelo más grande de Bogotá, en una clínica."
+
+      [[params.proyectos.row]]
+        title = "CLIENTES"
+        description = ""
+
+      [[params.proyectos.item]]
+        img = "glyphicon glyphicon-signal"
+        alt = "ATRACTIVO RETORNO SOBRE INVERSION"
+
+
+  # Work section
+  [params.work]
+    enable = false
+    title = "Work"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Project 1"
+      subtitle = "Branding"
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "Project 2"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_3.jpg"
+      alt = "Image3"
+      title = "Project 3"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_4.jpg"
+      alt = "Image4"
+      title = "Project 4"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_5.jpg"
+      alt = "Image5"
+      title = "Project 5"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_6.jpg"
+      alt = "Image6"
+      title = "Project 6"
+      subtitle = "Design"
+
+  # Testimonials section
+  [params.testimonials]
+    enable = false
+    title = "Testimonials"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+    
+
+
+
+  # Services section
+  [params.services]
+    enable = false
+    title = "Servicios"
+    description = ""
+
+    [[params.services.item]]
+      title = "DISEÑOS"
+      description = "Diseño único, escalable y detallado del sistema fotovoltaico, teniendo en cuenta sus requerimientos desde el consumo energético hasta la arquitectura del lugar de instalación."
+      icon = "icon-anchor"
+
+    [[params.services.item]]
+      title = "INGENIERÍA"
+      description = "Contamos con un equipo certificado y especializado para dimensionar la mejor solución y garantizar la correcta ejecución del proyecto."
+      icon = "icon-layers2"
+    [[params.services.item]]
+      title = "IMPLEMENTACIÓN"
+      description = "Construimos todos nuestros proyectos siendo 100% responsables de la solución, desde la conceptualización hasta la puesta en marcha."
+      icon = "icon-video2"
+
+      [[params.services.item]]
+      title = "SOPORTE"
+      description = "Construimos todos nuestros proyectos siendo 100% responsables de la solución, desde la conceptualización hasta la puesta en marcha."
+      icon = "icon-monitor"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "About"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.about.item]]
+      name = "Jean Smith"
+      position = "Web Designer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Rob Smith"
+      position = "Web Developer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person2.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Larry Ben"
+      position = "Web Designer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person3.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]      
+
+  # Counters section
+  [params.counters]
+    enable = true
+    title = "Calcula Tu Ahorro"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Porcentaje de Ahorro"
+      icon = "icon-briefcase"
+      from = 0
+      to = 99
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Numero de Paneles"
+      icon = "icon-code"
+      from = 0
+      to = 91
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Galones de gasolina consumidos en un año"
+      icon = "icon-cup"
+      from = 0
+      to = 2672
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Uso de energía por un hogar al Año (kw)"
+      icon = "icon-people"
+      from = 0
+      to = 8923
+      interval = 50
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    form = true
+    title = "Contactanos"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        ["icon-phone", "(123) 465-6789"],
+        ["icon-envelope", "info@freehtml5.co"],
+        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    links = [
+        ["icon-twitter", "#twitter"],
+        ["icon-facebook", "#facebook"],
+        ["icon-youtube", "#youtube"]
+      ]

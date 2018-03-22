@@ -1,0 +1,31 @@
+	<section id="fh5co-work" data-section="somos">
+		<div class="container">
+			<div class="row">
+				<div class="section-heading">
+					<h2 class="to-animate">{{ with .Site.Params.somos.title }}{{ . }}{{ end }}</h2>
+					<p>{{ with .Site.Params.somos.description }}{{ . | markdownify }}{{ end }}</p>
+				</div>
+			{{ range .Site.Params.somos.row }}
+				<div class="section-heading">
+					<h2>{{ .title }}</h2>
+					<p>{{ .description }}</p>
+				</div>
+			{{ end }}
+			</div>
+
+			<div class="col-md-12">
+
+			{{ range .Site.Params.somos.item }}
+            <div class="row">
+				<div class="col-md-3">
+                    <div class="box-simple">
+                        <div class="circle-icon">
+                            <i class="{{ .icon }} gi-4x" aria-hidden="true" data-toggle="popover" data-container="body" data-trigger="hover" data-placement="bottom" title="{{ .title }}" data-content="{{ .description }}"></i>
+                        </div>
+                    </div>                  
+                </div>
+			{{ end }}
+			</div>
+		</div>
+		</div>
+	</section>

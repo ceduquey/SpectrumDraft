@@ -1,0 +1,33 @@
+	<section id="fh5co-work" data-section="proyectos">
+		<div class="container">
+			<div class="row">
+				<div class="section-heading">
+					<h2 class="to-animate">{{ with .Site.Params.proyectos.title }}{{ . }}{{ end }}</h2>
+					<p>{{ with .Site.Params.proyectos.description }}{{ . | markdownify }}{{ end }}</p>
+				</div>
+			{{ range .Site.Params.proyectos.row }}
+				<div class="section-heading">
+					<h2>{{ .title }}</h2>
+					<p>{{ .description }}</p>
+				</div>
+			{{ end }}
+			</div>
+
+			<div class="col-md-12">
+
+			{{ range .Site.Params.proyectos.item }}
+            <div class="row">
+				<div class="col-md-3">
+                    <div class="box-simple">
+                        <div class="circle-icon">
+	 						<div class="author to-animate">
+								<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>								
+							</div>
+                        </div>
+                    </div>                  
+                </div>
+			{{ end }}
+			</div>
+		</div>
+		</div>
+	</section>
