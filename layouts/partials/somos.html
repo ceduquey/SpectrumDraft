@@ -17,11 +17,12 @@
 
 			{{ range .Site.Params.somos.item }}
             <div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="box-simple">
                         <div class="circle-icon">
-                            <i class="{{ .icon }} gi-4x" aria-hidden="true" data-toggle="popover" data-container="body" data-trigger="hover" data-placement="bottom" title="{{ .title }}" data-content="{{ .description }}"></i>
+                            <i class="{{ .icon }} gi-4x" aria-hidden="true" data-toggle="popover" data-container="body" data-trigger="hover focus click" data-placement="bottom" title="{{ .title }}" data-content="{{ .description }}"></i>
                         </div>
+                        <span class="fh5co-work-label">{{ .title }}</span>
                     </div>                  
                 </div>
 			{{ end }}

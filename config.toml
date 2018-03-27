@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "https://ceduquey.github.io/SpectrumDraft/"
-title = "Elate theme"
+title = "Spectrum"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 publishDir = "docs"
@@ -16,6 +16,7 @@ publishDir = "docs"
   # Navigation
   [params.navigation]
     brand = "Spectrum"
+    logo = "logo-small.png"
     home = "INICIO"
     work = "PROYECTOS"
     testimonials = "Testimonios"
@@ -25,9 +26,10 @@ publishDir = "docs"
     somos = "¿QUIENES SOMOS?"
     proyectos = "PROYECTOS"
 
+
     # You can add custom links before or after the default links
     # Assign a weight to define the order
-    
+
     # prepended links
     #[[menu.prepend]]
     #  url = "http://gohugo.io"
@@ -39,12 +41,13 @@ publishDir = "docs"
     #  url = "http://gohugo.io"
     #  name = "External link"
     #  weight = 10
-  
+
   # Hero section
   [params.hero]
     title = "POWER YOUR FUTURE"
     subtitle = 'if you want a subtitle'
- 
+    logo = "logo-white.png"
+
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
@@ -141,7 +144,7 @@ publishDir = "docs"
 
   # Proyectos section
   [params.proyectos]
-    enable = true
+    enable = false
     title = "EXPERIENCIA"
     description = "Llevamos 4 años asesorando importantes empresas colombianas en el desarrollo e instalación de sistemas fotovoltaicos para reducir su costo energético y contribuir en la mejora del medio ambiente. Nuestro más reciente proyecto fue el diseño e implementación del proyecto sobre suelo más grande de Bogotá, en una clínica."
 
@@ -156,7 +159,7 @@ publishDir = "docs"
 
   # Work section
   [params.work]
-    enable = false
+    enable = true
     title = "Work"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
@@ -167,35 +170,7 @@ publishDir = "docs"
       title = "Project 1"
       subtitle = "Branding"
 
-    [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
 
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
 
   # Testimonials section
   [params.testimonials]
@@ -226,28 +201,28 @@ publishDir = "docs"
 
   # Services section
   [params.services]
-    enable = false
+    enable = true
     title = "Servicios"
     description = ""
 
     [[params.services.item]]
       title = "DISEÑOS"
       description = "Diseño único, escalable y detallado del sistema fotovoltaico, teniendo en cuenta sus requerimientos desde el consumo energético hasta la arquitectura del lugar de instalación."
-      icon = "icon-anchor"
+      icon = "icon-layers2"
 
     [[params.services.item]]
       title = "INGENIERÍA"
       description = "Contamos con un equipo certificado y especializado para dimensionar la mejor solución y garantizar la correcta ejecución del proyecto."
-      icon = "icon-layers2"
+      icon = "icon-gears"
     [[params.services.item]]
       title = "IMPLEMENTACIÓN"
       description = "Construimos todos nuestros proyectos siendo 100% responsables de la solución, desde la conceptualización hasta la puesta en marcha."
-      icon = "icon-video2"
+      icon = "icon-road"
 
       [[params.services.item]]
       title = "SOPORTE"
       description = "Construimos todos nuestros proyectos siendo 100% responsables de la solución, desde la conceptualización hasta la puesta en marcha."
-      icon = "icon-monitor"
+      icon = "icon-heart-o"
 
   # About section
   [params.about]
@@ -299,7 +274,7 @@ publishDir = "docs"
 
     [[params.counters.item]]
       description = "Porcentaje de Ahorro"
-      icon = "icon-briefcase"
+      icon = "icon-sun"
       from = 0
       to = 99
       interval = 50
@@ -307,7 +282,7 @@ publishDir = "docs"
 
     [[params.counters.item]]
       description = "Numero de Paneles"
-      icon = "icon-code"
+      icon = "icon-film"
       from = 0
       to = 91
       interval = 50
@@ -315,7 +290,7 @@ publishDir = "docs"
 
     [[params.counters.item]]
       description = "Galones de gasolina consumidos en un año"
-      icon = "icon-cup"
+      icon = "icon-automobile"
       from = 0
       to = 2672
       interval = 50
@@ -323,7 +298,7 @@ publishDir = "docs"
 
     [[params.counters.item]]
       description = "Uso de energía por un hogar al Año (kw)"
-      icon = "icon-people"
+      icon = "icon-battery-full"
       from = 0
       to = 8923
       interval = 50
