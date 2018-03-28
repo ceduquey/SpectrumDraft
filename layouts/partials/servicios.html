@@ -26,6 +26,9 @@
 								<h5>{{ index .  0 }}</h5>	
 								<p>{{ index .  1 }}</p>
 							</div>
+							{{ end }}
+							{{ if eq $i 1}}
+								<img class="col-xs-6 img-casa" src="images/casa-fotovoltaico.png" alt="...">
 							{{ end }}							
 						{{ end }}
 					</div>

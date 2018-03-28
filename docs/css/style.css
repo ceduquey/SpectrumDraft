@@ -1519,3 +1519,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-services {
   background-image: url(../images/paneles-grandes.jpg);
 }
+
+#fh5co-testimonials .img-casa{
+  margin-left: 7em;;
+}
