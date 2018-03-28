@@ -36,6 +36,10 @@
         	{{ partial "about.html" .}}
 		{{ end }}
 
+        {{ if .Site.Params.servicios.enable }}
+            {{ partial "servicios.html" .}}
+        {{ end }}
+
 		{{ if .Site.Params.counters.enable }}
         	{{ partial "counters.html" .}}
         {{ end }}

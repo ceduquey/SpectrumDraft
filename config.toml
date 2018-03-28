@@ -115,32 +115,26 @@ publishDir = "docs"
   # Servicios section
   [params.servicios]
     enable = true
-    title = "SERVICIOS"
+    title = "¿Como Funciona Un Sistema Fotovoltaico?"
     description = ""
 
       [[params.servicios.row]]
-        icon = "icon-anchor"
-        img = "person1.jpg"
-        title = "DISEÑO"
-        description = "Diseño único, escalable y detallado del sistema fotovoltaico, teniendo en cuenta sus requerimientos desde el consumo energético hasta la arquitectura del lugar de instalación."
+        title = "Sistemas Interconectados"
+        description = [
+        ["1. PANELES SOLARES", "Convierten luz solar en energía corriente directa (DC), mediante celdas fotovoltaicas"],
+        ["4. RED ELÉCTRICA", "Funciona como respaldo a la planta fotovoltaica cuando no haya generación solar"],
+        ["2. INVERSOR", "Convierte la corriente directa (DC) en corriente alterna (AC) para ser utilizada en su hogar o empresa"],
+        ["3. CONTADOR", "Mide el consumo de energía de su casa o empresa"]
+      ]
 
       [[params.servicios.row]]
-        icon = "icon-anchor"
-        img = "person1.jpg"
-        title = "INGENIERÍA"
-        description = "Contamos con un equipo certificado y especializado para dimensionar la mejor solución y garantizar la correcta ejecución del proyecto."
-
-      [[params.servicios.row]]
-        icon = "icon-video2"
-        img = "person1.jpg"
-        title = "IMPLEMENTACIÓN"
-        description = "Construimos todos nuestros proyectos siendo 100% responsables de la solución, desde la conceptualización hasta la puesta en marcha."
-
-      [[params.servicios.row]]
-        icon = "icon-monitor"
-        img = "person1.jpg"
-        title = "SOPORTE"
-        description = "Construimos todos nuestros proyectos siendo 100% responsables de la solución, desde la conceptualización hasta la puesta en marcha."
+        title = "Sistemas Autónomos"
+        description = [
+        ["1. PANELES SOLARES", "Convierten luz solar en energía corriente directa (DC), mediante celdas fotovoltaicas"],
+        ["4. RED ELÉCTRICA", "Funciona como respaldo a la planta fotovoltaica cuando no haya generación solar"],
+        ["2. INVERSOR", "Convierte la corriente directa (DC) en corriente alterna (AC) para ser utilizada en su hogar o empresa"],
+        ["3. CONTADOR", "Mide el consumo de energía de su casa o empresa"]
+      ]
 
   # Proyectos section
   [params.proyectos]
@@ -161,16 +155,14 @@ publishDir = "docs"
   [params.work]
     enable = true
     title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Llevamos años asesorando importantes empresas colombianas en el desarrollo e instalación de sistemas fotovoltaicos para reducir su costo energético y contribuir en la mejora del medio ambiente."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
-
-
+      img = "fundacion-universitaria-juan-n-corpas.jpg"
+      alt = "Clinica Juan N Corpas"
+      title = "Clinica Juan N Corpas"
+      subtitle = "Potencia: 30 kW  <br> Sistema: Interconectado  <br> No. de Paneles: 95"
 
   # Testimonials section
   [params.testimonials]
@@ -226,7 +218,7 @@ publishDir = "docs"
 
   # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 

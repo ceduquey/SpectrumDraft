@@ -1463,6 +1463,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-testimonials .section-heading h2 {
   color: #484848;
+  font-size: 30px;
 }
 #fh5co-testimonials .section-heading h2:after {
   background: rgba(255, 255, 255, 0);
@@ -1482,7 +1483,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgba(209, 209, 209, 0.55);
     padding: 20px;
     border-top-right-radius: 90px;
-    max-width: 50%;
 }
 
 #fh5co-testimonials .transparent-panel-bottom {
@@ -1490,6 +1490,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #484848;
     padding: 20px;
     border-bottom-right-radius: 90px;
+}
+
+#fh5co-testimonials .transparent-panel-bottom p{
+    font-size: 10px;
 }
 
 #fh5co-header img {
