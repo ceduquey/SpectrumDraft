@@ -19,7 +19,11 @@
         {{ if .Site.Params.services.enable }}
             {{ partial "services.html" .}}
         {{ end }}
-		
+
+        {{ if .Site.Params.portfolio.enable }}
+          {{ partial "portfolio.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.proyectos.enable }}
             {{ partial "proyectos.html" .}}
         {{ end }}
@@ -51,6 +55,10 @@
         {{ if .Site.Params.footer.enable }}
         	{{ partial "footer.html" .}}
         {{ end }}
+
+        {{ if .Site.Params.portfolio.enable }}
+          {{ partial "modals.html" . }}
+        {{ end }}        
 
         {{ partial "js.html" .}}
     </body>
