@@ -15,16 +15,19 @@
 
 			<div class="col-md-12">
 
-			{{ range .Site.Params.somos.item }}
             <div class="row">
+            	{{ range $i,$p :=.Site.Params.somos.item }}
 				<div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="box-simple">
                         <div class="circle-icon">
                             <i class="{{ .icon }} gi-4x" aria-hidden="true" data-toggle="popover" data-container="body" data-trigger="hover focus click" data-placement="bottom" title="{{ .title }}" data-content="{{ .description }}"></i>
                         </div>
-                        <span class="fh5co-work-label">{{ .title }}</span>
+                        <div class="fh5co-work-label">{{ .title }}</div>
                     </div>                  
                 </div>
+				{{if not (modBool $i 2)}}                
+                	<div class="clearfix visible-sm-block"></div>
+                {{ end }}
 			{{ end }}
 			</div>
 		</div>

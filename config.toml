@@ -44,9 +44,9 @@ publishDir = "docs"
 
   # Hero section
   [params.hero]
-    title = "POWER YOUR FUTURE"
-    subtitle = 'if you want a subtitle'
-    logo = "logo-white.png"
+    title = "Power Your Future"
+    subtitle = ''
+    logo = "logo-small-wTitle2.png"
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -154,7 +154,7 @@ publishDir = "docs"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
+    title = ""
     description = "Llevamos años asesorando importantes empresas colombianas en el desarrollo e instalación de sistemas fotovoltaicos para reducir su costo energético y contribuir en la mejora del medio ambiente."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 

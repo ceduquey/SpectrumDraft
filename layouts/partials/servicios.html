@@ -13,7 +13,7 @@
 			<div class="transparent-panel-bottom">
 			{{ range .Site.Params.servicios.row }}
 				<div class="row">
-					<div class="col-md-6 col-sm-6">
+					<div class="col-xs-6">
 						<h3>{{ .title | markdownify }}</h3>	
 						{{ range $i,$p := .description }}
 							{{if not (modBool $i 2)}}
@@ -21,6 +21,7 @@
 								<h5>{{ index .  0 }}</h5>	
 								<p>{{ index .  1 }}</p>
 							</div>
+                			<div class="clearfix visible-sm-block"></div>
 							{{ else }}
 							<div class="col-xs-4">
 								<h5>{{ index .  0 }}</h5>	
@@ -29,6 +30,7 @@
 							{{ end }}
 							{{ if eq $i 1}}
 								<img class="col-xs-6 img-casa" src="images/casa-fotovoltaico.png" alt="...">
+								<div class="clearfix visible-sm-block"></div>
 							{{ end }}							
 						{{ end }}
 					</div>
