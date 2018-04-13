@@ -13,7 +13,7 @@
 			<div class="transparent-panel-bottom">
 			{{ range .Site.Params.servicios.row }}
 				<div class="row">
-					<div class="col-xs-6">
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<h3>{{ .title | markdownify }}</h3>	
 						{{ range $i,$p := .description }}
 							{{if not (modBool $i 2)}}

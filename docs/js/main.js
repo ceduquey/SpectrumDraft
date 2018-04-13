@@ -433,6 +433,48 @@
 		}
 	};
 
+	var portfolioAnimate = function() {
+		var portfolio = $('#portfolio');
+		if ( portfolio.length > 0 ) {	
+
+			portfolio.waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+					var sec = portfolio.find('.to-animate').length,
+						sec = parseInt((sec * 200) - 400);
+
+					setTimeout(function() {
+						portfolio.find('.to-animate').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+							
+						});
+					}, 200);
+
+					setTimeout(function() {
+						portfolio.find('.to-animate-2').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeInDown animated');
+							},  k * 200, 'easeInOutExpo' );
+							
+						});
+					}, sec);
+
+					
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
+
 
 	
 	
@@ -466,6 +508,7 @@
 		aboutAnimate();
 		countersAnimate();
 		contactAnimate();
+		portfolioAnimate();
 		
 
 	});

@@ -153,7 +153,7 @@ publishDir = "docs"
 
   # Work section
   [params.work]
-    enable = true
+    enable = false
     title = ""
     description = "Llevamos años asesorando importantes empresas colombianas en el desarrollo e instalación de sistemas fotovoltaicos para reducir su costo energético y contribuir en la mejora del medio ambiente."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
@@ -223,8 +223,8 @@ publishDir = "docs"
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Expereiencia"
+    subtitle = "Llevamos 4 años asesorando importantes empresas colombianas en el desarrollo e instalación de sistemas fotovoltaicos."
 
     [params.portfolio.modal]
       client = "Client"
