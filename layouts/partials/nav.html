@@ -29,6 +29,10 @@
                     {{ if .Site.Params.proyectos.enable }}
                     <li><a href="#" data-nav-section="proyectos"><span>{{ with .Site.Params.navigation.proyectos }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
+                    
+                    {{ if .Site.Params.services.enable }}
+                    <li><a href="#" data-nav-section="services"><span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a></li> 
+                    {{ end }}
 
                     {{ if .Site.Params.portfolio.enable }}
                     <li><a href="#" data-nav-section="portfolio"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li> 
@@ -40,10 +44,6 @@
 
                     {{ if .Site.Params.testimonials.enable }}
                     <li><a href="#" data-nav-section="testimonials"><span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span></a></li> 
-                    {{ end }}
-
-                    {{ if .Site.Params.services.enable }}
-                    <li><a href="#" data-nav-section="services"><span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
 
                     {{ if .Site.Params.about.enable }}
