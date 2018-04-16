@@ -12,7 +12,7 @@ publishDir = "docs"
   # Meta
   author = ""
   description = ""
-  email = ""
+  email = "info@spectrumenergy.co"
   # Navigation
   [params.navigation]
     brand = "Spectrum"
@@ -324,9 +324,9 @@ publishDir = "docs"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
+        ["icon-home", "Av. Suba # 106a-28, <br> Bogotá, Colombia"],
+        ["icon-phone", "+57 (1) 613.9373"],
+        ["icon-envelope", "info@spectrumenergy.co"],
         ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
       ]
 
