@@ -436,6 +436,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+#fh5co-home .n-logo {
+  display: inline-block;
+}
+
 .slant {
   position: absolute;
   transform: rotate(-1.7deg);
