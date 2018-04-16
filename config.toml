@@ -19,6 +19,7 @@ publishDir = "docs"
     logo = "logo-small.png"
     home = "INICIO"
     work = "PROYECTOS"
+    services = "SERVCICIOS"
     testimonials = "Testimonios"
     servicios = "SERVICIOS"
     about = "CONTACTOS"
@@ -114,7 +115,7 @@ publishDir = "docs"
 
   # Servicios section
   [params.servicios]
-    enable = true
+    enable = false
     title = "¿Como Funciona Un Sistema Fotovoltaico?"
     description = ""
 
@@ -223,14 +224,14 @@ publishDir = "docs"
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Expereiencia"
+    title = "Experiencia"
     subtitle = "Llevamos 4 años asesorando importantes empresas colombianas en el desarrollo e instalación de sistemas fotovoltaicos."
 
     [params.portfolio.modal]
       client = "Client"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+      buttonText = "Cerrar el Proyecto"
 
 
   # About section
@@ -277,7 +278,7 @@ publishDir = "docs"
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Calcula Tu Ahorro"
     background = "full_image_1.jpg"
 
@@ -317,9 +318,9 @@ publishDir = "docs"
   [params.contact]
     enable = true
     map = true
-    form = true
+    form = "Comienza a ahorrar desde hoy"
     title = "Contactanos"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = ""
     
     # Available icons: http://simplelineicons.com/
     details = [
@@ -329,15 +330,15 @@ publishDir = "docs"
         ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
       ]
 
-    name = "Name"
+    name = "Nombre"
     email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+    phone = "Telefono"
+    message = "Mensaje"
+    button = "Envianos un Mensaje"
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
     links = [
         ["icon-twitter", "#twitter"],
