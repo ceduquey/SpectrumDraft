@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "https://ceduquey.github.io/SpectrumDraft/"
-title = "Spectrum"
+title = "Spectrum Energy"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 publishDir = "docs"
@@ -19,12 +19,13 @@ publishDir = "docs"
     logo = "logo-small.png"
     home = "INICIO"
     work = "PROYECTOS"
-    services = "SERVCICIOS"
+    services = "SERVICIOS"
+    portfolio = "PROYECTOS"
     testimonials = "Testimonios"
     servicios = "SERVICIOS"
     about = "CONTACTOS"
-    contact = "CONTACTANOS"
-    somos = "¿QUIENES SOMOS?"
+    contact = "CONTÁCTANOS"
+    somos = "¿QUIÉNES SOMOS?"
     proyectos = "PROYECTOS"
 
 
@@ -86,7 +87,7 @@ publishDir = "docs"
   # Somos section
   [params.somos]
     enable = true
-    title = "¿Quienes Somos?"
+    title = "¿Quiénes Somos?"
     description = "Somos un equipo de personas apasionadas por la energía renovable con la misión profesional de contribuir al medio ambiente mediante la construcción de plantas generadoras de energía renovable de la mejor calidad en nuestra región. Nos especializamos en el diseño, ingeniería, implementación y soporte de proyectos de energía fotovoltaica para uso comercial, residencial y a gran escala. Nuestro equipo de ingenieros e instaladores se basan en los más estrictos estándares internacioales al diseñar su planta y en rigurosos procedimientos de seguridad al momento de implementar."
 
       [[params.somos.row]]
@@ -141,7 +142,7 @@ publishDir = "docs"
   [params.proyectos]
     enable = false
     title = "EXPERIENCIA"
-    description = "Llevamos 4 años asesorando importantes empresas colombianas en el desarrollo e instalación de sistemas fotovoltaicos para reducir su costo energético y contribuir en la mejora del medio ambiente. Nuestro más reciente proyecto fue el diseño e implementación del proyecto sobre suelo más grande de Bogotá, en una clínica."
+    description = "Estos son nuestros proyectos"
 
       [[params.proyectos.row]]
         title = "CLIENTES"
@@ -225,12 +226,12 @@ publishDir = "docs"
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Experiencia"
-    subtitle = "Llevamos 4 años asesorando importantes empresas colombianas en el desarrollo e instalación de sistemas fotovoltaicos."
+    subtitle = "Estos son nuestros proyectos"
 
     [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
+      client = "Cliente"
+      date = "Fecha"
+      category = "Categoría"
       buttonText = "Cerrar el Proyecto"
 
 
@@ -319,7 +320,7 @@ publishDir = "docs"
     enable = true
     map = true
     form = "Comienza a ahorrar desde hoy"
-    title = "Contactanos"
+    title = "Contáctanos"
     description = ""
     
     # Available icons: http://simplelineicons.com/

@@ -29,6 +29,10 @@
                     {{ if .Site.Params.proyectos.enable }}
                     <li><a href="#" data-nav-section="proyectos"><span>{{ with .Site.Params.navigation.proyectos }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
+
+                    {{ if .Site.Params.portfolio.enable }}
+                    <li><a href="#" data-nav-section="portfolio"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li> 
+                    {{ end }}
                     
                     {{ if .Site.Params.work.enable }}
                     <li><a href="#" data-nav-section="work"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li> 
