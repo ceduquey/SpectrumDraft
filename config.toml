@@ -4,6 +4,7 @@ title = "Spectrum Energy"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 publishDir = "docs"
+googleAnalytics = "UA-57237855-2"
 
 [params]
   
