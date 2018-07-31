@@ -1422,9 +1422,14 @@ h1, h2, h3, h4, h5, h6 {
     width: 7em;
     height: 7em;
     border-radius: 50%;
+    border: 2px solid #73AD21;
     padding: 1.3em;
     color: #82fff8;
     display: inline-block;
+}
+
+#fh5co-work .circle-icon:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #fh5co-work .fh5co-work-label {
