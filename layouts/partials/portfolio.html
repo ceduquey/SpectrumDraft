@@ -26,11 +26,15 @@
           </a>
           <div class="portfolio-caption">
             <h4>{{ .title | markdownify }}</h4>
+            <h4>{{ .modalID | markdownify }}</h4>
             <p class="text-muted">{{ .category | markdownify }}</p>
           </div>
         </div>
+        {{ if modBool .modalID 4}}
+        </div> <!-- end row -->
+        <div class="row">
+        {{ end }}
       {{ end }}
-
     </div>
   </div>
 </section>

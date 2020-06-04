@@ -16,11 +16,11 @@
               <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
               <hr class="star-primary"></hr>
               <p>{{ .description | markdownify }}</p>
-              <!--ul class="list-inline">
+              <ul class="list-inline">
                 <li>{{ with $.Site.Params.portfolio.modal.date }}{{ . }}{{ end }}: {{ .date }}</li>
                 <li>{{ with $.Site.Params.portfolio.modal.client }}{{ . | markdownify }}{{ end }}: <a href="{{ .clientLink }}">{{ .client }}</a></li>
                 <li>{{ with $.Site.Params.portfolio.modal.category }}{{ . }}{{ end }}: {{ .category  | markdownify }}</li>
-              </ul-->
+              </ul>
               <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
             </div>
           </div>
