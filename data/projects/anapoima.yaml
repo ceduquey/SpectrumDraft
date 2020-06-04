@@ -10,13 +10,13 @@ category: "Potencia AC: 12 kWP"
 description:  'Potencia DC: **14.04 kWP**  <br /> Potencia AC: **12 kWP** <br /> Sistema: **Interconectado**  <br /> Paneles: **36 trina solar** <br /> 
 Inversor: **1 Fronius** <br /> Estructura: **Contra balanceada Ecolibrium Solar** <br />
 
-<div class="bs-example" data-example-id="simple-carousel-3">
-    <div id="carousel-example-generic-3" class="carousel slide" data-ride="carousel">
+<div class="bs-example" data-example-id="simple-carousel-2">
+    <div id="carousel-example-generic-2" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic-3" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic-3" data-slide-to="1" class=""></li>
-        <li data-target="#carousel-example-generic-3" data-slide-to="2" class=""></li>
-        <li data-target="#carousel-example-generic-3" data-slide-to="3" class=""></li>       
+        <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic-2" data-slide-to="1" class=""></li>
+        <li data-target="#carousel-example-generic-2" data-slide-to="2" class=""></li>
+        <li data-target="#carousel-example-generic-2" data-slide-to="3" class=""></li>       
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
@@ -32,11 +32,11 @@ Inversor: **1 Fronius** <br /> Estructura: **Contra balanceada Ecolibrium Solar*
           <img data-src="holder.js/900x500/auto/#555:#333/text:Fourth slide" alt="Fourth slide" src="./images/portfolio/anapoima/anapoima-4.jpg" data-holder-rendered="true">
         </div>              
       </div>
-      <a class="left carousel-control" href="#carousel-example-generic-3" role="button" data-slide="prev">
+      <a class="left carousel-control" href="#carousel-example-generic-2" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="#carousel-example-generic-3" role="button" data-slide="next">
+      <a class="right carousel-control" href="#carousel-example-generic-2" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
