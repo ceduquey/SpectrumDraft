@@ -1,5 +1,5 @@
 modalID: 3
-title: Proyecto Puerto Lopez
+title: Casa Puerto Lopez
 subtitle: ""
 date: 2019-07-30
 img: 
@@ -7,9 +7,8 @@ preview: puerto-lopez-preview.jpg
 client: Puerto Lopez
 clientLink: "#"
 category: "Potencia AC: 1.2 kWP"
-description:  'Se instaló 6 paneles solares de estructura alurack con baterias:<br />
-Potencia DC: **2.04 kWP**  <br /> Potencia AC: **1.2 kWP** <br /> Sistema: **No Interconectado**  <br /> **6** Paneles trina solar 340W <br /> 
-Controlador: **1 de carga Victron Energy** <br /> Inversor/Cargador: **1 Victron Energy 1200 24V** <br /> Baterías: **4 TB-Gel 200H - 12V**
+description:  'Potencia DC: **2.04 kWP**  <br /> Potencia AC: **1.2 kWP** <br /> Sistema: **No Interconectado**  <br /> Paneles: **6 trina solar** <br /> 
+Controlador: **1 Victron Energy** <br /> Inversor/Cargador: **1 Victron Energy** <br /> Baterías: **4 gel**
 <br /> Estructura: **Alurack** <br />
 
 <div class="bs-example" data-example-id="simple-carousel-2">
