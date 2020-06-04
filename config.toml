@@ -328,8 +328,8 @@ googleAnalytics = "UA-57237855-2"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "Av. Suba # 106a-28, <br> Bogotá, Colombia"],
-        ["icon-phone", "+57 (1) 613.9373"],
+        ["icon-home", "Cra 12 No. 82-33 Ofc 200, <br> Bogotá, Colombia"],
+        ["icon-phone", "+57 (1) 621.2842"],
         ["icon-envelope", "info@spectrumenergy.co"]
       ]
 
