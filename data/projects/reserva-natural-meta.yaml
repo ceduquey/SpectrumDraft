@@ -15,14 +15,18 @@ Controlador: **4 Outback** <br /> Inversor/Cargador: **2 Victron Energy** <br />
     <div id="carousel-example-generic-6" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carousel-example-generic-6" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic-6" data-slide-to="1" class=""></li>   
+        <li data-target="#carousel-example-generic-6" data-slide-to="1" class=""></li>  
+        <li data-target="#carousel-example-generic-6" data-slide-to="2" class=""></li>   
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img data-src="holder.js/900x500/auto/#777:#555/text:First slide" alt="First slide" src="./images/portfolio/rnatural/rnatural-1.jpg" data-holder-rendered="true">
+          <img data-src="holder.js/900x500/auto/#777:#555/text:First slide" alt="First slide" src="./images/portfolio/rnatural/rnatural-1.jpeg" data-holder-rendered="true">
         </div>
         <div class="item">
-          <img data-src="holder.js/900x500/auto/#666:#444/text:Second slide" alt="Second slide" src="./images/portfolio/rnatural/rnatural-2.jpg" data-holder-rendered="true">
+          <img data-src="holder.js/900x500/auto/#777:#555/text:Second slide" alt="Second slide" src="./images/portfolio/rnatural/rnatural-2.jpeg" data-holder-rendered="true">
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#666:#444/text:Third slide" alt="Third slide" src="./images/portfolio/rnatural/rnatural-3.jpeg" data-holder-rendered="true">
         </div>
       </div>
       <a class="left carousel-control" href="#carousel-example-generic-6" role="button" data-slide="prev">
